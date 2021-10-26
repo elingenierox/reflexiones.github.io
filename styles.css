@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(162, 172, 173);
+}
+
+.items{
+    min-width: 500px;
+
+}
+
+
+.dueño{
+    position:relative;
+    color: rgb(26, 1, 1);
+    background-color:rgba(0, 255, 255, 0.11);
+    width: 250px;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 5px;
+    font-size: 15px;
+    font-family:cursive;
+    border-radius: 5px;
+    border-style: ridge;
+    box-shadow: darkgoldenrod;
+    box-shadow: 10px 2px 10px 10px;
+}
+
+.telef{
+    position:absolute;
+    top: 1px;
+    left: 330px;
+    color: rgb(26, 1, 1);
+    background-color:rgba(0, 255, 255, 0.11);
+    width: 200px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 5px;
+    font-size: 15px;
+    font-family:cursive;
+    border-radius: 5px;
+    border-style: ridge;
+    box-shadow: darkgoldenrod;
+    box-shadow: 10px 2px 10px 10px;
+}
+
+.face{
+    position:absolute;
+    left: 850px;
+    top: 1px;
+    color: rgb(26, 1, 1);
+    background-color:rgba(99, 136, 136, 0.5);
+    width: 400px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 5px;
+    font-size: 15px;
+    font-family:cursive;
+    border-radius: 5px;
+    border-style: ridge;
+    box-shadow: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 10px;
+    
+}
+
+.youtobe{
+    position:absolute;
+    left: 590px;
+    top: 1px;
+    color: rgb(26, 1, 1);
+    background-color:rgba(0, 255, 255, 0.11);
+    width: 200px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top:10px;
+    padding: 5px;
+    font-size: 15px;
+    font-family:cursive;
+    border-radius: 5px;
+    border-style: ridge;
+    box-shadow: rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px 10px;
+    
+}
+
+h1{
+    position: relative;
+    top: 20px;
+    background-color: rgb(180, 180, 204);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 5px;
+    border-style:outset;
+    border-color: rgba(191, 204, 10, 0.411);
+    border-width: 15px;
+    box-shadow: 10px 10px 20px 20px;
+    text-shadow: 5px 2px 10px rgb(3, 3, 3)
+    }
+
+
+.listado{
+    
+    position: relative;
+    top: 15px;
+    background-color: rgba(180, 180, 204);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 50px 20px 50px;
+    padding: 1px;
+    border-style:outset;
+    border-color: rgba(191, 204, 10, 0.411);
+    border-width: 15px;
+    font-size: 25px;
+    box-shadow: 10px 10px 20px;
+    text-shadow: 5px 5px 10px rgb(3, 3, 3);
+}
+
+
+.todas{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 350px;
+    height: 500px;
+    background-color:  hsla(155, 68%, 34%, 0.479);
+    padding: 10px 20px 10px 40px;
+    margin: 20px;
+    border-style: outset;
+    border-color: rgba(23, 32, 32, 0.911);
+    border-width: 10px;
+    overflow: auto;
+    line-height:2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.todas1{
+    position:absolute;
+    left: 480px;
+    top: 240px;
+    width: 350px;
+    height: 500px;
+    background-color:  hsla(155, 68%, 34%, 0.479);
+    padding: 10px 20px 10px 40px;
+    margin: 20px;
+    border-style: outset;
+    border-color: rgba(23, 32, 32, 0.911);
+    border-width: 10px;
+    overflow: auto;
+    line-height:2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.todas2{
+    position: absolute;
+    left: 930px;
+    top: 240px;
+    width: 350px;
+    height: 500px;
+    background-color:  hsla(155, 68%, 34%, 0.479);
+    padding: 10px 20px 10px 40px;
+    margin: 20px;
+    border-style: outset;
+    border-color: rgba(23, 32, 32, 0.911);
+    border-width: 10px;
+    overflow: auto;
+    line-height:2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+    
+
+
+.button{
+    color: rgba(126, 10, 10, 0.678);
+    background-color: rgba(78, 173, 78, 0.185);
+    border-style:unset;
+}
+
+
+h3{
+    position: relative;
+    top: 20PX;
+    background-color: rgba(2, 231, 247, 0.315);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 20px 50px 20px 50px;
+    padding: 1px;
+    border-style:double;
+    border-color: rgba(3, 3, 3, 0.699);
+    border-width: 15px;
+    font-size: 25px;
+    box-shadow: 10px 10px 20px;
+    text-shadow: 5px 5px 10px rgb(3, 3, 3);
+}
+
+p{
+    position: relative;
+    top: 30PX;
+    background-color: rgba(74, 155, 49, 0.432);
+    color: rgb(12, 6, 6);
+    text-align: center;
+    margin: -20px 100px 30px 100px;
+    padding: 12px;
+    border-style:outset;
+    border-width: 1ch;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20PX;
+    box-shadow: 10px 10px 40px 20px;
+}
+
+.usodepag{
+    position:relative;
+    top: 50px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: rgb(13, 32, 31);
+    background-color: rgba(147, 161, 15, 0.911);
+    border-radius: 25%;
+    box-shadow: 10px 10px 30px 10px;
+}
+
+.reglas{
+    position: relative;
+    top: 70px;
+    width: 1000px;
+    margin-bottom: 100px;
+    margin-left: 180px;
+    margin-right: 20px;
+    padding: 5px 5px 5px 20pxpx;
+    border-style:groove;
+    border-color: rgba(126, 252, 0, 0.342);
+    border-radius: 20px;
+    color: rgb(11, 7, 73);
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+
+strong{
+    position: relative;
+    left: 400px;
+    top: 100px;
+    background-color:rgba(180, 150, 138, 0.233);
+    color: rgba(5, 12, 12, 0.37);
+    font-size: 40px;
+    padding: auto;
+    margin-bottom: 100px;
+    border-style:double;
+    border: top 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+    
+    
+
+}
